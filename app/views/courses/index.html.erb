@@ -1,1 +1,9 @@
-<h1>Wecome to the course</h1>
+<% @courses.each do |course| %>
+  <div> 
+    <h1><%= course.name %></h1><br />
+    <i ><%= course.address %></i><br />
+    <p><%= course.description %></p><br />
+  </div>
+
+  <hr /> 
+<% end %>
