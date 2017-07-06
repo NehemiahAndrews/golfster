@@ -1,9 +1,8 @@
 <% @courses.each do |course| %>
-  <div> 
-    <h1><%= course.name %></h1><br />
-    <i ><%= course.address %></i><br />
+  <div class="zazz-box col-10 offset-1"> 
+    <h1><%= course.name %></h1>
+    <i ><%= course.address %></i><br /><br />
     <p><%= course.description %></p><br />
   </div>
 
-  <hr /> 
 <% end %>
