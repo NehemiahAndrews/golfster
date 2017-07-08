@@ -1,0 +1,10 @@
+<div class="zazz-box col-10 offset-1">
+  <h1>Add a course</h1>
+  <%= simple_form_for @course do |f| %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :description %>
+    <br />
+    <%= f.submit 'Create', class: 'btn btn-primary' %>
+  <% end %>
+</div>

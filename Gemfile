@@ -60,3 +60,6 @@ end
 
 # Gemfile for Rails 3+, Sinatra, and Merb - pagination
 gem 'will_paginate', '~>3.1.0'
+
+#Add simple form
+gem 'simple_form'
