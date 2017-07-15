@@ -57,6 +57,9 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "golfster_#{Rails.env}"
   config.action_mailer.perform_caching = false
 
+  # Set default URL for Devise Mailer
+  config.action_mailer.default_url_options = { host: 'golfster-bignemo.herokuapp.com' }
+
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false

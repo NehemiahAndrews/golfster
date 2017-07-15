@@ -66,3 +66,6 @@ gem 'simple_form'
 
 # Add icons
 gem 'font-awesome-rails'
+
+# add user auth
+gem 'devise'
